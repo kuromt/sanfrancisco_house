@@ -11,7 +11,7 @@ requirementes = [
 ]
     
 setup(
-    name='sanfrancisco_house',
+    name='sanfrancisco',
     version='0.0.1',
     description='mlops demo',
     long_description=readme,
