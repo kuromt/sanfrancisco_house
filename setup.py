@@ -21,5 +21,5 @@ setup(
     url='https://github.com/kuromt/sanfrancisco_house',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
-    include_package_data=True
+    include_package_data=True,
 )
