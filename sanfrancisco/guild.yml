@@ -1,0 +1,11 @@
+- package: mlops-demo
+  version: 0.0.1
+
+- model: predict-house-price
+  description: San Francisco House Price Regression
+  operations:
+    train:
+      main: sanfrancisco.train
+      flags-import: all
+      output-scalars: '(\key): (\value)'
+    
