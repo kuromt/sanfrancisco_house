@@ -21,5 +21,5 @@ setup(
     url='https://github.com/kuromt/sanfrancisco_house',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
-    package_data={'.': ['guild.yml']}
+    include_package_data=True
 )
