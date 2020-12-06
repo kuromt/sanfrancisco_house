@@ -20,11 +20,11 @@ setup(
     install_requires=requirementes,
     url='https://github.com/kuromt/sanfrancisco_house',
     license=license,
-    entry_points=[
-        'guild.models': [
+    entry_points={
+        'guild.models':[
             'predict_price=guild.model:PackageModel',
         ],
-    ],
+    },
     packages=find_packages(exclude=('tests', 'docs')),
     include_package_data=True,
 )
