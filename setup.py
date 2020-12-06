@@ -22,7 +22,7 @@ setup(
     license=license,
     entry_points={
         'guild.models':[
-            'predict_price=guild.model:PackageModel',
+            'predict_house_price=guild.model:PackageModel',
         ],
     },
     packages=find_packages(exclude=('tests', 'docs')),
